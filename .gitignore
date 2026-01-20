@@ -9,3 +9,5 @@ server/aqi_data.db
 server/aqi_data.db-journal
 *.db-shm
 *.db-wal
+GITHUB_QUICK_SETUP.md
+GITHUB_SETUP.md

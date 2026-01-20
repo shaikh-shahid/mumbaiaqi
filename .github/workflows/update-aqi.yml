@@ -1,4 +1,4 @@
-name: Update AQI Data
+name: Update AQI Data and Deploy
 
 on:
   schedule:
@@ -6,24 +6,25 @@ on:
     - cron: "30 0 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
-  update-aqi:
+  update-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
 
-      - name: Install dependencies
+      - name: Install root dependencies
         run: npm install axios
 
       - name: Update AQI Data
@@ -34,15 +35,37 @@ jobs:
       - name: Copy updated data to client/public
         run: |
           cp data/aqi-data.json client/public/data/aqi-data.json
+          cp data/zones.json client/public/data/zones.json
+          cp data/recommendations.json client/public/data/recommendations.json
 
-      - name: Commit and push changes
+      - name: Commit data changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add data/aqi-data.json client/public/data/aqi-data.json
+          git add data/ client/public/data/
           if git diff --staged --quiet; then
-            echo "No changes to commit"
+            echo "No changes to commit - AQI data unchanged"
           else
-            git commit -m "chore: update AQI data [skip ci]"
+            git commit -m "chore: update AQI data [automated]"
             git push
           fi
+
+      - name: Install client dependencies
+        run: |
+          cd client && npm install
+
+      - name: Build static site
+        run: |
+          cd client && npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './client/dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
