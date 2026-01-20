@@ -1,0 +1,11 @@
+node_modules/
+dist/
+build/
+*.log
+.env
+.env.local
+.DS_Store
+server/aqi_data.db
+server/aqi_data.db-journal
+*.db-shm
+*.db-wal

@@ -1,0 +1,48 @@
+name: Update AQI Data
+
+on:
+  schedule:
+    # Runs daily at 6:00 AM IST (00:30 UTC)
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-aqi:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install dependencies
+        run: npm install axios
+
+      - name: Update AQI Data
+        env:
+          AQI_API_KEY: ${{ secrets.AQI_API_KEY }}
+        run: node scripts/update-aqi.js
+
+      - name: Copy updated data to client/public
+        run: |
+          cp data/aqi-data.json client/public/data/aqi-data.json
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/aqi-data.json client/public/data/aqi-data.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update AQI data [skip ci]"
+            git push
+          fi

@@ -1,0 +1,17 @@
+{
+  "name": "mumbai-aqi-system",
+  "version": "1.0.0",
+  "description": "Mumbai AQI Map & Resolution System - Static Site",
+  "scripts": {
+    "dev": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "preview": "cd client && npm run preview",
+    "migrate": "node scripts/migrate-to-json.js",
+    "generate-recs": "node scripts/generate-initial-recommendations.js",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}

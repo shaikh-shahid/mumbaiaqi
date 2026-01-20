@@ -1,0 +1,194 @@
+{
+  "zones": [
+    {
+      "zone_id": 2,
+      "current_aqi": 178,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 3,
+      "current_aqi": 165,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 4,
+      "current_aqi": 152,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 20,
+      "current_aqi": 190,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 5,
+      "current_aqi": 188,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 6,
+      "current_aqi": 195,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 1,
+      "current_aqi": 145,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 7,
+      "current_aqi": 168,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 8,
+      "current_aqi": 175,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 9,
+      "current_aqi": 142,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 10,
+      "current_aqi": 198,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 11,
+      "current_aqi": 182,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 12,
+      "current_aqi": 155,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 13,
+      "current_aqi": 172,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 14,
+      "current_aqi": 148,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 15,
+      "current_aqi": 158,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    },
+    {
+      "zone_id": 18,
+      "current_aqi": 162,
+      "pm25": null,
+      "pm10": null,
+      "no2": null,
+      "o3": null,
+      "co": null,
+      "data_source": "API Ninja (CPCB India)",
+      "last_updated": "2026-01-18 11:44:52"
+    }
+  ],
+  "lastUpdated": "2026-01-19T19:25:07.135Z",
+  "nextUpdate": "2026-01-20T19:25:07.135Z",
+  "version": "1.0.0"
+}
