@@ -1,4 +1,4 @@
-name: Update AQI Data and Deploy
+name: Update AQI Data and Build
 
 on:
   schedule:
@@ -8,11 +8,9 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
-  update-and-deploy:
+  update-and-build:
     runs-on: ubuntu-latest
     
     steps:
@@ -38,18 +36,6 @@ jobs:
           cp data/zones.json client/public/data/zones.json
           cp data/recommendations.json client/public/data/recommendations.json
 
-      - name: Commit data changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add data/ client/public/data/
-          if git diff --staged --quiet; then
-            echo "No changes to commit - AQI data unchanged"
-          else
-            git commit -m "chore: update AQI data [automated]"
-            git push
-          fi
-
       - name: Install client dependencies
         run: |
           cd client && npm install
@@ -58,14 +44,14 @@ jobs:
         run: |
           cd client && npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          path: './client/dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Commit all changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ client/public/data/ client/dist/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update AQI data and rebuild static site [automated]"
+            git push
+          fi

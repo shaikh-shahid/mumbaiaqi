@@ -1,5 +1,4 @@
 node_modules/
-dist/
 build/
 *.log
 .env
@@ -11,3 +10,6 @@ server/aqi_data.db-journal
 *.db-wal
 GITHUB_QUICK_SETUP.md
 GITHUB_SETUP.md
+
+# Allow client/dist/ to be committed (static build)
+!client/dist/

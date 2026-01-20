@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Build Static Site
 
 on:
   push:
@@ -7,15 +7,14 @@ on:
     paths-ignore:
       - 'data/aqi-data.json'
       - 'client/public/data/aqi-data.json'
+      - 'client/dist/**'
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,14 +34,14 @@ jobs:
         run: |
           cd client && npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v3
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: './client/dist'
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+      - name: Commit built files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add client/dist/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: rebuild static site [automated]"
+            git push
+          fi
