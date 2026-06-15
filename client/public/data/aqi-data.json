@@ -4,191 +4,191 @@
       "zone_id": 2,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:41.259Z"
+      "last_updated": "2026-06-15T05:32:25.883Z"
     },
     {
       "zone_id": 3,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:41.667Z"
+      "last_updated": "2026-06-15T05:32:25.671Z"
     },
     {
       "zone_id": 4,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 8.52,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.8,
+      "co": 70.39,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:41.707Z"
+      "last_updated": "2026-06-15T05:32:26.865Z"
     },
     {
       "zone_id": 20,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:41.745Z"
+      "last_updated": "2026-06-15T05:32:27.037Z"
     },
     {
       "zone_id": 5,
       "current_aqi": 36,
       "pm25": null,
-      "pm10": 8.53,
-      "no2": 0.1,
-      "o3": 42.86,
-      "co": 72.25,
+      "pm10": 9.91,
+      "no2": 0.17,
+      "o3": 43.04,
+      "co": 72.48,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:41.730Z"
+      "last_updated": "2026-06-15T05:32:27.102Z"
     },
     {
       "zone_id": 6,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:44.410Z"
+      "last_updated": "2026-06-15T05:32:29.805Z"
     },
     {
       "zone_id": 1,
-      "current_aqi": 36,
+      "current_aqi": 35,
       "pm25": null,
-      "pm10": 8.36,
+      "pm10": 9.58,
       "no2": 0.04,
-      "o3": 43.43,
-      "co": 71.82,
+      "o3": 42.12,
+      "co": 70.61,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:44.441Z"
+      "last_updated": "2026-06-15T05:32:29.889Z"
     },
     {
       "zone_id": 7,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:44.430Z"
+      "last_updated": "2026-06-15T05:32:29.823Z"
     },
     {
       "zone_id": 8,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:44.458Z"
+      "last_updated": "2026-06-15T05:32:29.795Z"
     },
     {
       "zone_id": 9,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:44.443Z"
+      "last_updated": "2026-06-15T05:32:29.804Z"
     },
     {
       "zone_id": 10,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:47.151Z"
+      "last_updated": "2026-06-15T05:32:32.594Z"
     },
     {
       "zone_id": 11,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:47.181Z"
+      "last_updated": "2026-06-15T05:32:32.622Z"
     },
     {
       "zone_id": 12,
-      "current_aqi": 36,
+      "current_aqi": 35,
       "pm25": null,
-      "pm10": 8.36,
+      "pm10": 9.58,
       "no2": 0.04,
-      "o3": 43.43,
-      "co": 71.82,
+      "o3": 42.12,
+      "co": 70.61,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:47.212Z"
+      "last_updated": "2026-06-15T05:32:32.676Z"
     },
     {
       "zone_id": 13,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:47.138Z"
+      "last_updated": "2026-06-15T05:32:32.577Z"
     },
     {
       "zone_id": 14,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:47.180Z"
+      "last_updated": "2026-06-15T05:32:32.624Z"
     },
     {
       "zone_id": 15,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:49.932Z"
+      "last_updated": "2026-06-15T05:32:35.404Z"
     },
     {
       "zone_id": 18,
       "current_aqi": 35,
       "pm25": null,
-      "pm10": 7.84,
+      "pm10": 9.32,
       "no2": 0.05,
-      "o3": 42.43,
-      "co": 71.51,
+      "o3": 41.48,
+      "co": 70.27,
       "data_source": "api-ninjas",
-      "last_updated": "2026-06-14T05:12:49.941Z"
+      "last_updated": "2026-06-15T05:32:35.396Z"
     }
   ],
-  "lastUpdated": "2026-06-14T05:12:49.941Z",
-  "nextUpdate": "2026-06-15T05:12:49.941Z",
+  "lastUpdated": "2026-06-15T05:32:35.404Z",
+  "nextUpdate": "2026-06-16T05:32:35.404Z",
   "version": "1.0.0"
 }
