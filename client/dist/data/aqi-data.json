@@ -2,193 +2,193 @@
   "zones": [
     {
       "zone_id": 2,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:29.897Z"
+      "last_updated": "2026-09-04T04:51:08.137Z"
     },
     {
       "zone_id": 3,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:29.874Z"
+      "last_updated": "2026-09-04T04:51:06.088Z"
     },
     {
       "zone_id": 4,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:29.912Z"
+      "last_updated": "2026-09-04T04:51:06.426Z"
     },
     {
       "zone_id": 20,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:29.793Z"
+      "last_updated": "2026-09-04T04:51:06.593Z"
     },
     {
       "zone_id": 5,
-      "current_aqi": 27,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.84,
-      "no2": 0.16,
-      "o3": 32.02,
-      "co": 65.73,
+      "pm10": 5.98,
+      "no2": 0.19,
+      "o3": 34.17,
+      "co": 67.23,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:29.979Z"
+      "last_updated": "2026-09-04T04:51:08.127Z"
     },
     {
       "zone_id": 6,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:32.883Z"
+      "last_updated": "2026-09-04T04:51:11.105Z"
     },
     {
       "zone_id": 1,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 5.75,
+      "pm10": 6.86,
       "no2": 0.07,
-      "o3": 31.69,
-      "co": 64.77,
+      "o3": 33.27,
+      "co": 65.73,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:32.870Z"
+      "last_updated": "2026-09-04T04:51:11.522Z"
     },
     {
       "zone_id": 7,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:32.778Z"
+      "last_updated": "2026-09-04T04:51:10.982Z"
     },
     {
       "zone_id": 8,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:32.839Z"
+      "last_updated": "2026-09-04T04:51:11.064Z"
     },
     {
       "zone_id": 9,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:32.811Z"
+      "last_updated": "2026-09-04T04:51:10.986Z"
     },
     {
       "zone_id": 10,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:35.768Z"
+      "last_updated": "2026-09-04T04:51:14.347Z"
     },
     {
       "zone_id": 11,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:35.741Z"
+      "last_updated": "2026-09-04T04:51:14.340Z"
     },
     {
       "zone_id": 12,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 5.75,
+      "pm10": 6.86,
       "no2": 0.07,
-      "o3": 31.69,
-      "co": 64.77,
+      "o3": 33.27,
+      "co": 65.73,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:35.769Z"
+      "last_updated": "2026-09-04T04:51:14.332Z"
     },
     {
       "zone_id": 13,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:35.703Z"
+      "last_updated": "2026-09-04T04:51:14.310Z"
     },
     {
       "zone_id": 14,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:35.767Z"
+      "last_updated": "2026-09-04T04:51:14.463Z"
     },
     {
       "zone_id": 15,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:38.587Z"
+      "last_updated": "2026-09-04T04:51:17.284Z"
     },
     {
       "zone_id": 18,
-      "current_aqi": 26,
+      "current_aqi": 28,
       "pm25": null,
-      "pm10": 6.75,
+      "pm10": 6.54,
       "no2": 0.06,
-      "o3": 31.68,
-      "co": 64.72,
+      "o3": 33.6,
+      "co": 65.83,
       "data_source": "api-ninjas",
-      "last_updated": "2026-09-03T04:44:38.571Z"
+      "last_updated": "2026-09-04T04:51:17.302Z"
     }
   ],
-  "lastUpdated": "2026-09-03T04:44:38.587Z",
-  "nextUpdate": "2026-09-04T04:44:38.587Z",
+  "lastUpdated": "2026-09-04T04:51:17.302Z",
+  "nextUpdate": "2026-09-05T04:51:17.302Z",
   "version": "1.0.0"
 }
