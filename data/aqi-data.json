@@ -2,113 +2,113 @@
   "zones": [
     {
       "zone_id": 2,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:22.970Z"
+      "last_updated": "2026-10-06T06:34:29.241Z"
     },
     {
       "zone_id": 3,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:23.988Z"
+      "last_updated": "2026-10-06T06:34:29.607Z"
     },
     {
       "zone_id": 4,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:23.925Z"
+      "last_updated": "2026-10-06T06:34:29.242Z"
     },
     {
       "zone_id": 20,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:23.827Z"
+      "last_updated": "2026-10-06T06:34:29.683Z"
     },
     {
       "zone_id": 5,
-      "current_aqi": 153,
+      "current_aqi": 144,
       "pm25": null,
-      "pm10": 38.61,
-      "no2": 2.42,
-      "o3": 96.47,
-      "co": 189.52,
+      "pm10": 38.95,
+      "no2": 1.21,
+      "o3": 92.67,
+      "co": 174.95,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:23.881Z"
+      "last_updated": "2026-10-06T06:34:29.718Z"
     },
     {
       "zone_id": 6,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:26.829Z"
+      "last_updated": "2026-10-06T06:34:32.581Z"
     },
     {
       "zone_id": 1,
-      "current_aqi": 173,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 46.75,
-      "no2": 1.39,
-      "o3": 104.56,
-      "co": 183.35,
+      "pm10": 41.22,
+      "no2": 0.86,
+      "o3": 91.53,
+      "co": 175.69,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:26.787Z"
+      "last_updated": "2026-10-06T06:34:32.555Z"
     },
     {
       "zone_id": 7,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:26.790Z"
+      "last_updated": "2026-10-06T06:34:32.638Z"
     },
     {
       "zone_id": 8,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:26.829Z"
+      "last_updated": "2026-10-06T06:34:32.574Z"
     },
     {
       "zone_id": 9,
-      "current_aqi": 164,
+      "current_aqi": 141,
       "pm25": null,
-      "pm10": 39.89,
-      "no2": 1.67,
-      "o3": 100.91,
-      "co": 176.94,
+      "pm10": 38.82,
+      "no2": 0.97,
+      "o3": 91.68,
+      "co": 169.9,
       "data_source": "api-ninjas",
-      "last_updated": "2026-10-05T05:56:26.790Z"
+      "last_updated": "2026-10-06T06:34:32.565Z"
     },
     {
       "zone_id": 10,
@@ -188,7 +188,7 @@
       "last_updated": "2026-10-05T05:56:32.965Z"
     }
   ],
-  "lastUpdated": "2026-10-05T05:56:32.966Z",
-  "nextUpdate": "2026-10-06T05:56:32.966Z",
+  "lastUpdated": "2026-10-06T06:34:37.956Z",
+  "nextUpdate": "2026-10-07T06:34:37.956Z",
   "version": "1.0.0"
 }
