@@ -13,14 +13,14 @@
     },
     {
       "zone_id": 3,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:36.964Z"
+      "last_updated": "2026-11-23T07:55:13.878Z"
     },
     {
       "zone_id": 4,
@@ -90,14 +90,14 @@
     },
     {
       "zone_id": 8,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:40.869Z"
+      "last_updated": "2026-11-23T07:55:17.647Z"
     },
     {
       "zone_id": 9,
@@ -112,83 +112,83 @@
     },
     {
       "zone_id": 10,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:43.567Z"
+      "last_updated": "2026-11-23T07:55:20.314Z"
     },
     {
       "zone_id": 11,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:43.572Z"
+      "last_updated": "2026-11-23T07:55:20.406Z"
     },
     {
       "zone_id": 12,
-      "current_aqi": 227,
+      "current_aqi": 225,
       "pm25": null,
-      "pm10": 100.01,
-      "no2": 1.17,
-      "o3": 186.35,
-      "co": 398.92,
+      "pm10": 151.17,
+      "no2": 1.73,
+      "o3": 181.51,
+      "co": 521.18,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:43.577Z"
+      "last_updated": "2026-11-23T07:55:20.312Z"
     },
     {
       "zone_id": 13,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:43.683Z"
+      "last_updated": "2026-11-23T07:55:20.333Z"
     },
     {
       "zone_id": 14,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:43.640Z"
+      "last_updated": "2026-11-23T07:55:20.306Z"
     },
     {
       "zone_id": 15,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:46.326Z"
+      "last_updated": "2026-11-23T07:55:23.080Z"
     },
     {
       "zone_id": 18,
-      "current_aqi": 231,
+      "current_aqi": 226,
       "pm25": null,
-      "pm10": 108.44,
-      "no2": 1.44,
-      "o3": 197.54,
-      "co": 434.43,
+      "pm10": 159.42,
+      "no2": 2.11,
+      "o3": 183.08,
+      "co": 557.85,
       "data_source": "api-ninjas",
-      "last_updated": "2026-11-22T07:08:46.381Z"
+      "last_updated": "2026-11-23T07:55:23.073Z"
     }
   ],
-  "lastUpdated": "2026-11-22T07:08:46.381Z",
-  "nextUpdate": "2026-11-23T07:08:46.381Z",
+  "lastUpdated": "2026-11-23T07:55:23.080Z",
+  "nextUpdate": "2026-11-24T07:55:23.080Z",
   "version": "1.0.0"
 }
